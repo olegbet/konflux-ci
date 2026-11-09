@@ -1,6 +1,6 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-  - https://github.com/konflux-ci/internal-services/config/crd?ref=f649003a8eb4e9dd016b3da8eb9e5851c513d0fb
+  - https://github.com/konflux-ci/internal-services/config/crd?ref=58b29118e35b3233ed7983e781406c0fff4bd6b8
 
 namespace: release-service
